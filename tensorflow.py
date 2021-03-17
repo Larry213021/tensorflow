@@ -110,4 +110,3 @@ y_train = np.eye(80)
 # verbose是代表顯示的模式)
 # batch_size調高，建議epochs也跟著調高
 his = model.fit(x = input_data, y = y_train, batch_size=1, epochs=10, verbose=2)
-print(np.argmax(model.predict(c),axis=-1))
